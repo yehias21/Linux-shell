@@ -1,6 +1,8 @@
 #include <stdio.h>
-
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
+#include "gfgCode.c"
+#include "mycode.c"
+//int main() {
+//    printf("Hello, World!\n");
+////    gfgshell();
+//    return 0;
+//}
