@@ -33,7 +33,7 @@ int getInput(char* str)
 //todo: read on pointer to pointer arithmatics and build same function but with malloc and sscanf/strtok
 int parser(char* line,char** tokens) {
     int i;
-    for ( i= 0; i < MAXLIST; i++) {
+    for ( i= 0; i < 100; i++) {
         tokens[i] = strsep(&line, " ");
         if (tokens[i] == NULL)
             break;
